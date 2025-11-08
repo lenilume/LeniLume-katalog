@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LeniLume katalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LeniLume katalog</h1>
+    <p>Interaktivni flipbook — jednostavno podignite ovaj folder na GitHub Pages.</p>
+  </header>
+
+  <main>
+    <div id="flipbook" class="flipbook">
+      <button id="prev" aria-label="Prethodna stranica">‹</button>
+      <div class="page-viewer">
+        <div class="page left" id="left-page"></div>
+        <div class="page right" id="right-page"></div>
+      </div>
+      <button id="next" aria-label="Sljedeća stranica">›</button>
+    </div>
+
+    <div class="controls">
+      <span id="page-indicator">Stranica 1 / -</span>
+    </div>
+
+    <noscript>
+      <p>Za najbolje iskustvo omogućite JavaScript.</p>
+    </noscript>
+
+  </main>
+
+  <footer>
+    <p>Kontakt: info@lenilume.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
